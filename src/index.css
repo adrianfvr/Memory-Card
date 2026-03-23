@@ -134,3 +134,13 @@ body {
   z-index: 0;
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
+
+.card.flipped .card-front {
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.9);
+}
+
+.card.flipped .card-back {
+  opacity: 1;
+}
